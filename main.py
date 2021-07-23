@@ -1,7 +1,7 @@
 from selenium import webdriver
 from process import InternetSpeedBot
 import time
-path = "C:\selenium_web_driver\chromedriver.exe"
+path = "your path"
 driver = webdriver.Chrome(executable_path=path)
 url = "https://www.speedtest.net/"
 
